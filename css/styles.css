@@ -1,0 +1,57 @@
+body {
+    color: #757575;
+
+}
+/* WebStudio */
+.logo {
+    color: #2196F3;
+}
+
+/* Navigation */
+ul {
+    list-style: none;
+}
+
+.nav-studio,
+.mail {
+    color: #2196F3;
+}
+
+.nav-studio:hover {
+    color: #212121
+}
+
+.mail:hover{
+    color:#757575
+}
+
+.nav-portfolio,
+.nav-contact,
+.section-benefits, 
+.section-to-do,
+.section-team,
+.section-name {
+    color: #212121;
+}
+
+.tel {
+    color: #757575;
+}
+
+.section-title,
+.section-button,
+.footer-address {
+    color: #ffffff;
+}
+
+.section-button {
+    background: #2196F3;
+}
+
+/* Footer bg */
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
