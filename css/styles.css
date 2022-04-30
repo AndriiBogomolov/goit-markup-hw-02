@@ -40,10 +40,17 @@ ul {
 
 .nav-studio,
 .nav-portfolio,
-.nav-contact,
-.tel,
-.mail {
-    color: var(--title-text-color);
+.nav-contact {
+    color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.mail,
+.tel {
+    color: var(--primery-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -51,11 +58,11 @@ ul {
 }
 
 .nav-studio:hover {
-    color: var(--accent-color);
+    color: var(--title-text-color);
 }
 
-.mail:hover{
-    color: var(--primery-text-color);
+.mail:hover {
+    color: var(--title-text-color);
 }
 
 .nav-portfolio,
@@ -101,7 +108,6 @@ ul {
 
 .section-to-do,
 .section-team {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -114,14 +120,34 @@ ul {
     line-height: 1.18;
 }
 
+.main-title {
+    color: var(--accent-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.main-work {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
 .position {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
 }
 
-.tel {
-    color: var(--primery-text-color);
+.button-list {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
 }
 
 .button-all,
