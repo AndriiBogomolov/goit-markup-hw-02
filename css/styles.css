@@ -148,6 +148,12 @@ ul {
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
+}
+
+.marketing,
+.design, 
+.apps,
+.all-web {
     cursor: pointer;
 }
 
@@ -155,6 +161,7 @@ ul {
 .section-button,
 .footer-address {
     color: #ffffff;
+    cursor: pointer;
 }
 
 .button-all {
