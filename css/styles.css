@@ -23,7 +23,6 @@ body {
 .logo {
     color: var(--title-text-color);
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -31,12 +30,16 @@ body {
 }
 
 .accent1 {
-    color: #212121;
+    color: var(--accent-color);
 }
 
 /* Navigation */
 ul {
     list-style: none;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .nav-studio,
@@ -58,32 +61,52 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.nav-studio:hover {
+.nav-studio:hover,
+.nav-studio:focus {
     color: var(--title-text-color);
 }
 
-.mail:hover {
+.nav-portfolio:hover,
+.nav-portfolio:focus {
     color: var(--title-text-color);
 }
 
+.nav-contact:hover,
+.nav-contact:focus {
+    color: var(--title-text-color);
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--title-text-color);
+}
+
+.tel:hover,
+.tel:focus {
+    color: var(--title-text-color);
+}
 .nav-portfolio,
-.nav-contact,
-.section-benefits, 
-.section-to-do,
-.section-team,
-.section-name, 
-.section-title {
+.nav-contact{
     color: var(--accent-color);
 }
 
+
+
 /* Sections */
 
+.section-benefits,
+.section-to-do,
+.section-team,
+.section-name {
+    color: var(--accent-color);
+}
 .section-title {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.35;
+    line-height: 1.36;
     letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2F303A;
 }
 
 .section-button {
@@ -100,10 +123,10 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .section-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;    
     letter-spacing: 0.03em;
@@ -133,62 +156,83 @@ ul {
 }
 
 .main-work {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
 
 .position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
 }
 
 .button-list {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.62;
     letter-spacing: 0.03em;
 }
 
-.marketing,
-.design, 
+.button-all,
+.all-web,
 .apps,
-.all-web {
+.design,
+.marketing {
     cursor: pointer;
+    background-color: #F5F4FA;;
 }
 
-.button-all,
 .section-button,
 .footer-address {
     color: #ffffff;
     cursor: pointer;
 }
 
-.button-all {
-    background: var(--title-text-color);
+.button-all:hover, 
+.button-all:focus {
+    background-color: var(--title-text-color);
 }
 
-.button-all:hover {
-    background: var(--primery-text-color);
+.all-web:hover,
+.all-web:focus {
+    background-color: var(--title-text-color);
+}
+
+.apps:hover,
+.apps:focus {
+    background-color: var(--title-text-color);
+}
+
+.design:hover,
+.design:focus {
+    background-color: var(--title-text-color);
+}
+
+.marketing:hover,
+.marketing:focus {
+    background-color: var(--title-text-color);
+}
+
+.button:hover,
+.button:focus {
+    color: #ffffff;
 }
 
 /* Footer bg */
 
+.footer{
+    background-color: #2F303A;
+}
+
 .footer-address,
 .footer-contacts {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-
-
+    
 .footer-contacts {
     color: rgba(255, 255, 255, 0.6);
 
